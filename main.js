@@ -51,9 +51,6 @@ function start() {
 function modelLoaded() {
     console.log("Model Loaded!");
     status = true;
-    video.loop();
-    video.speed(1);
-    video.volume(0);
 }
 function gotResult(error, results) {
     if (error) {
